@@ -5,6 +5,7 @@ const switchBodyColor = function getRandomHexColor() {
 
 const startRef = document.querySelector('[data-start]');
 const stopRef = document.querySelector('[data-stop]');
+let intervalID = null;
 
 startRef.addEventListener('click', onStartRefClick);
 stopRef.addEventListener('click', onStopRefClick);
